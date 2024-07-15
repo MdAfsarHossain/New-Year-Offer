@@ -1,0 +1,46 @@
+* {
+    /* margin: 20px 30px; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+.header {
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    width: 1070px;
+    margin: 20px auto;
+    height: 90vh;
+}
+
+.banner-content {
+    color: white;
+}
+
+.banner-content h4 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.banner-content h1 {
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 80px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
