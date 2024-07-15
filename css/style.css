@@ -273,6 +273,69 @@
 }
 
 
+/* Holidays Styles */
+.holidays {
+    width: 1070px;
+    margin: 150px auto;
+    position: relative;
+}
+
+.holidays-subtitle,
+.holidays-title, 
+.holidays-description {
+    text-align: center;
+}
+
+.holidays-subtitle {
+    font-size: 22px;
+}
+
+.holidays-title {
+    font-size: 66px;
+}
+
+.holidays-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0%;
+    width: 510px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.holidays-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    margin-top: 100px;
+}
+
+.left-holidays img {
+    width: 570px;
+    z-index: 1000;
+    position: relative;
+}
+
+.right-holidays img {
+    margin-top: -230px;
+    width: 80%;
+}
+
+.holidays-banner {
+    width: 1070px;
+    position: absolute;
+    top: 80%;
+}
+
+.holidays-banner img {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
 
 
 
