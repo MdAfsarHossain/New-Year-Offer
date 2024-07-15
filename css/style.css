@@ -374,4 +374,71 @@
 }
 
 
+/* Subscribe Styles */
+.subscribe-section {
+    width: 1070px;
+    margin: 125px auto;
+    height: 450px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.subscribe-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-img {
+    width: 100px;
+    margin-top: 75px;
+}
+
+.subscribe-title {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.subscribe-description {
+    width: 550px;
+    text-align: center;
+    color: rgba(7, 2, 17, 0.6);
+    margin: 0;
+}
+
+.subscribe-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    margin-top: 25px;
+}
+
+.subscribe-input input {
+    padding: 15px 15px;
+    width: 350px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: none;
+    margin: 0;
+}
+
+.subscribe-btn {
+    width: 130px;
+    background-color: red;
+    color: white;
+    padding: 13px 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: 0;
+    cursor: pointer;
+}
+
+
+
 
